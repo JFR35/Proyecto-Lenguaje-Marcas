@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Juan Fajardo Reyes">
+    <title>Reiki Bienestar</title>
+    <!-- Agrego descripción y palabras clave en metadatos para SEO en motoros de búsqueda-->
+    <meta name="keywords" content="Reiki, Bienestar, Terapia, Salud">
+    <meta name="description"
+        content="Bienvenido a Reiki TúBienestar. Ofrecemos terapias de Reiki y otros servicios para promover tu bienestar físico y emocional.">
+
+    <!-- Enlaces para los estulos CSS,JS, BOOTSTRAP y GOOGLEFONTS-->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+     <!-- Icono de la pestaña del navegador -->
+     <link rel="icon" type="image/png" href="img/pexels-rpnickson-2531237.jpg">
+</head>
+
+<body>
+
+    <header>
+        <!-- Barra de navegación -->
+        <nav id="navbar" class="navbar navbar-expand-lg navbar-dark bg-dark py-md-4">
+            <div class="container">
+                <a class="navbar-brand">Reiki TúBienestar</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#section1">Lo que hacemos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#section2">Nuestros servicios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#section3">Contacta con nosotros</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!--Seccion 1-->
+    <section id="section1" class="parallax" style="background-image: url('img/pexels-rpnickson-2531237.jpg');">
+        <div class="container text-center">
+            <div class="beneficts">
+                <h1 class="font-weight-bold mb-4">Beneficios del Reiki</h1>
+                <ul class="beneficts list-unstyled mt-4">
+                    <li class="mb-2"><strong>Reducción del estrés:</strong> El Reiki puede ayudar a reducir el estrés y
+                        promover la relajación profunda.</li>
+                    <li class="mb-2"><strong>Equilibrio energético:</strong> Ayuda a equilibrar y armonizar el flujo de
+                        energía en el cuerpo.</li>
+                    <li class="mb-2"><strong>Fortalecimiento del sistema inmunológico:</strong> Puede fortalecer el
+                        sistema inmunológico, ayudando al cuerpo a combatir enfermedades.</li>
+                    <li class="mb-2"><strong>Alivio del dolor:</strong> El Reiki puede proporcionar alivio del dolor y
+                        mejorar el bienestar físico y emocional.</li>
+                    <li class="mb-2"><strong>Mejora del sueño:</strong> Ayuda a mejorar la calidad del sueño y a
+                        promover un descanso reparador.</li>
+                </ul>
+            </div>
+        </div>
+
+    </section>
+    <!--Sección 2-->
+    <section id="section2" class="parallax" style="background-image: url('img/meditacion.jpeg');">
+        <div class="container text-center">
+            <h2>Conoce nuestras terapias</h2>
+            <div>
+                <!-- Botón para mostrar los servicios para evento con JS -->
+                <button id="mostrarServiciosBtn" class="btn btn-primary mt-4">Haga Clik Para Conocer Nuestros
+                    Servicios</button>
+                <!-- Párrafo oculto con los servicios sucede tras clicar el botón -->
+                <p id="servicios" style="display: none; margin-top: 30px;">Ofrecemos una variedad de servicios para tu
+                    bienestar, incluyendo sesiones de Reiki, terapia de masaje, meditación guiada, y mucho más.</p>
+                <div id="priceTable" class="container mt-5">
+                    <table class="table mt-6">
+                        <thead>
+                            <tr>
+                                <th>Servicio</th>
+                                <th>Tarifa</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Sesión de Reiki</td>
+                                <td>30€</td>
+                            </tr>
+                            <tr>
+                                <td>Terapia de Masaje</td>
+                                <td>40€</td>
+                            </tr>
+                            <tr>
+                                <td>Meditación Guiada</td>
+                                <td>25€</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+<!--Seccion 3-->
+    <section id="section3" class="parallax" style="background-image: url('img/pexels-cottonbro-3997995.jpg');">
+        <div class="container text-center">
+            <article>
+                <div id="whatsappContainer" class="rounded p-4 m-4">
+                    <button id="whatsapp" class="btn btn-primary mt-4 mb-4">Envíanos un whatsapp</button>
+                    <!-- Párrafo oculto con los servicios que aparece al hacer clic en el botón -->
+                    <p id="showTel" class="hidden-info bg-white text-dark p-3 rounded" style="display: none;">
+                        <span class="material-symbols-outlined mr-md-5"><a href="tel:+34655768227"
+                                class="text-dark">phone_in_talk</a></span>
+                        655 76 82 27
+                    </p>
+                </div>
+                <div id="emailContainer" class="rounded p-4 m-4">
+                    <button id="email" class="btn btn-primary mt-4 mb-4">Envíanos un email</button>
+                    <!-- Párrafo oculto con los servicios que aparece al hacer clic en el botón -->
+                    <p id="showEmail" class="hidden-info bg-white text-dark p-3 rounded" style="display: none;">
+                        <span class="material-symbols-outlined mr-md-5"><a href="mailto:juanfajardoreyes@hotmail.com"
+                                class="text-dark">Email</a></span>
+                        juanfajardoreyes@hotmail.com
+                    </p>
+                </div>
+                <div id="adressContainer" class="rounded p-4 m-4">
+                    <button id="adress" class="btn btn-primary mt-4 mb-4">Encuéntranos</button>
+                    <p id="showAdress" class="hidden-info bg-white text-dark p-3 rounded" style="display: none;">
+                        <span class="material-symbols-outlined mr-md-5"><a
+                                href="https://www.google.com/maps/place/40%C2%B028'38.7%22N+3%C2%B021'50.3%22W/@40.4774034,-3.3648834,18z/data=!3m1!4b1!4m4!3m3!8m2!3d40.477402!4d-3.363973?entry=ttu"
+                                target="_blank" class="text-dark">home_pin</a></span>
+                        Alcalá de Henares
+                    </p>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <!-- Pie de página, contiene iconos para contacto por mail(abre la app), whatsapp (abre la app) y ubicación por maps-->
+    <footer class="text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 offset-md-3">
+                    <p>&copy; 2024 TúBienestar. Todos los derechos reservados.</p>
+                    <div class="row justify-content-center">
+                        <div class="col-md-4">
+                            <span class="material-symbols-outlined mr-md-5"><a
+                                    href="mailto:juanfajardoreyes@hotmail.com">Email</a></span>
+                        </div>
+                        <div class="col-md-4">
+                            <span class="material-symbols-outlined mr-md-5"><a
+                                    href="tel:+614301433">phone_in_talk</a></span>
+                        </div>
+                        <div class="col-md-4">
+                            <span class="material-symbols-outlined"><a
+                                    href="https://www.google.com/maps/place/40%C2%B028'38.7%22N+3%C2%B021'50.3%22W/@40.4774034,-3.3648834,18z/data=!3m1!4b1!4m4!3m3!8m2!3d40.477402!4d-3.363973?entry=ttu"
+                                    target="_blank">home_pin</a></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Barra de navegación del footer -->
+        <footer>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <div class="container">
+                    <a class="navbar-brand" href="#navbar">Volver a inicio</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#section1">Lo que hacemos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#section2">Nuestros servicios</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#section3">Contacta con nosotros</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </footer>
+
+        <!-- Script para las propiedades css, js y jquery por si en un futuro agrego -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <script src="js/scripts.js"></script>
+        <!-- Scripts de JavaScript -->
+       
+
+</body>
+
+</html>

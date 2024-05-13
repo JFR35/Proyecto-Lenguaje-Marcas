@@ -1,0 +1,45 @@
+/* Resetea los elementos, aunque al utilizar bootstrap no creo que fuese necesario */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Añade sombreado en el texto de la seccion1 */
+.beneficts{
+    padding: 50px;
+    background-color: #33333312;
+    border-radius: 30px;
+}
+
+#priceTable {
+    border-radius: 10px; 
+    background-color:aliceblue;
+    display: none;
+}
+
+/* Añado un poco de padding para que no quede muy pegado el texto y cambio colores de fondo y letra */
+footer {
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
+
+/* Aplicar efecto parallax */
+.parallax {
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    overflow-x: hidden;
+    overflow-y: auto;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
