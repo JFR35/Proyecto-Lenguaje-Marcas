@@ -6,7 +6,7 @@ Este proyecto es un sitio web creado utilizando el framework Bootstrap para el d
 
 ## Características Principales
 
-- Diseño receptivo que se adapta a diferentes tamaños de pantalla.
+- Diseño responsive que se adapta a diferentes tamaños de pantalla.
 - Uso de componentes y estilos predefinidos de Bootstrap para una apariencia consistente.
 - Implementación de funcionalidades adicionales utilizando JavaScript y plugins de Bootstrap.
 
